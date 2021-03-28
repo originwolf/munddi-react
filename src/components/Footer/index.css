@@ -1,0 +1,51 @@
+.rodape {
+	background-color: var(--generalBackground);
+}
+
+.rodape h3 {
+	color: var(--trueWhite);
+	font-size: 1.4rem;
+}
+
+.rodape hr {
+	border-color: var(--trueWhite);
+}
+
+.icone {
+	background-color: rgba(39,64,139,0.5);
+}
+
+.rodape hr {
+	border: 1px solid rgba(39,64,139,0.9);
+}
+
+.rodape p {
+	color: white;
+	font-size: 1rem;
+}
+
+.btnTop {
+	color: var(--greySecondary);
+	background-color: transparent;
+}
+
+.btnTop:hover {
+	color: var(--trueWhite);
+}
+
+.btnTop:focus,
+.btnMenu:focus {
+	box-shadow: none;
+}
+
+.linkSocial {
+	color: var(--trueWhite);
+	text-decoration: underline;
+	font-size: 1rem;
+}
+
+.linkSocial:hover {
+	color: var(--trueWhite);
+	text-decoration: none;
+	font-size: 1rem;
+}

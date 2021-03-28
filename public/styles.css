@@ -1,0 +1,32 @@
+/* 1: CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: 'Ubuntu', Arial, 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+}
+
+/* GENERAL CSS SETTINGS */
+:root {
+    --greyTheme:#cecece;
+    --topBackground: #272727;
+    --generalBackground: #25221A;
+    --trueWhite: #ffffff;
+    --greySecondary: #aaaaaa;
+}
+
+.linkNoUnderline {
+	text-decoration: none;
+	color: var(--greyTheme);
+}
+
+.linkNoUnderline:hover {
+	text-decoration: none;
+	color: var(--greyTheme);
+	font-size: 1.1rem;
+}
+
+#principal {
+    background-color: var(--greyTheme);
+}

@@ -1,0 +1,18 @@
+.top-navigation {
+	background-color: var(--topBackground);
+	color: var(--greyTheme);
+	line-height: 200%;
+	height: 35px;
+}
+
+.top-navigation a {
+	color: var(--greyTheme);
+}
+
+.top-navigation a:hover {
+	color: var(--trueWhite);
+}
+
+.fa-code {
+    padding-top: 0.65rem;
+}
