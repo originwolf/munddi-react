@@ -1,7 +1,6 @@
 #map {
     border-radius: 10px;
-    border: 1px solid black;
-    box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.5);
     min-height: calc(100vh - 300px);
 }
 
@@ -10,4 +9,8 @@
   #map {
     min-height: calc(100vh - 400px);
   }
+}
+
+#map:first-child {
+  margin-left: -15px;
 }

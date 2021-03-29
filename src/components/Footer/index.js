@@ -31,8 +31,6 @@ function Footer() {
                     <a aria-label="Conheça meu LinkedIn" rel="noopener, noreferrer" id="aLinkedin2"href="https://www.linkedin.com/in/pedro-martins-dev" target="_blank" className="linkSocial"><span className="font-weight-bold">LinkedIn: </span>Pedro Martins</a>	
                 </div>
 
-                <button aria-label="voltarAoTopo" id="arrow" type="button" onclick="go('#home')" className="btn btnTop col-1"><i className="fas fa-arrow-up"></i></button>
-
                 <div className="col-12 text-center pb-3">			
                     <hr />
                     <a aria-label="Voltar para a página inicial" id="aMeuNome" href="index.html" className="linkNoUnderline">Pedro Martins - 2019</a>
