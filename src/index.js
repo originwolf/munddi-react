@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Header from './components/Header';
-import Mapa from './components/Map';
 import Footer from './components/Footer';
+import Mapa from './components/Map'
 import './index.css';
 
 ReactDOM.render(
