@@ -10,7 +10,3 @@
     min-height: calc(100vh - 400px);
   }
 }
-
-#map:first-child {
-  margin-left: -15px;
-}

@@ -4,7 +4,7 @@ import './index.css';
 
 function Mapa() {
     return (
-        <div className="container-fluid">
+        <div id="principal" className="container-fluid">
             <div className="row text-center py-4">
                 <div className="col-12">
                     <h1>Encontre o estabelecimento mais próximo de você:</h1>
